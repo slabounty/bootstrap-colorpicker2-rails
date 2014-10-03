@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+See ...
+
+http://mjolnic.github.io/bootstrap-colorpicker/
+
+Stylesheets
+Add necessary stylesheet file to app/assets/stylesheets/application.css
+
+    *= require bootstrap-colorpicker
+
+Javascripts
+Add necessary javascript(s) files to app/assets/javascripts/application.js
+
+    //= require bootstrap-colorpicker
+
+
+Using bootstrap-colorpicker-rails
+Just call colorpicker() with any selector.
+
+    $('.colorpicker').colorpicker()
 
 ## Contributing
 

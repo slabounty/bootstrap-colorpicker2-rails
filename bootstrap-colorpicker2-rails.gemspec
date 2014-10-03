@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Bootstrap::Colorpicker2::Rails::VERSION
   spec.authors       = ["Scott LaBounty"]
   spec.email         = ["slabounty@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{A colorpicker for Bootstrap bundled for Rails}
+  spec.summary       = %q{A colorpicker for Bootstrap bundled for Rails}
+  spec.homepage      = "https://github.com/slabounty/bootstrap-colorpicker2-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
