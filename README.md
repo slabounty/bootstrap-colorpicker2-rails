@@ -22,10 +22,14 @@ See ...
 
 http://mjolnic.github.io/bootstrap-colorpicker/
 
-Stylesheets
+Stylesheets (? Why the 2nd??)
 Add necessary stylesheet file to app/assets/stylesheets/application.css
 
     *= require bootstrap-colorpicker
+
+Add necessary stylesheet file to app/assets/stylesheets/custom.css
+
+    @import "bootstrap-colorpicker";
 
 Javascripts
 Add necessary javascript(s) files to app/assets/javascripts/application.js
