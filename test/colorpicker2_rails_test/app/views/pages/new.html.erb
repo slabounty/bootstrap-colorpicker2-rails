@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="span6 offset3">
+    <h1>Color Test</h1>
+    <%= form_for(@page) do |f| %>
+
+      <div class="row" style="margin-bottom: 150px">
+        <%= f.text_field :color_1, class: "demo1", value: "#00cc00" %>
+      </div>
+
+      <%= f.submit "Add Color", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>
+
+<script>
+  $(function(){
+    $('.demo1').colorpicker();
+  });
+</script>
